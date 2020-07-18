@@ -1,7 +1,5 @@
 package interfaceTest;
 
-import inheritance.TestingClass;
-
 public class Class_test implements Interface1 {
 
 	@Override
