@@ -14,7 +14,7 @@ public class Fibo_series {
 		int third =0;
 		System.out.println(first);
 		System.out.println(second);
-		for(int i=2;i<count;i++){
+		for(int i=2;i<=count;i++){
 			third=first+second;
 			System.out.println(third);
 			first=second;
@@ -24,6 +24,6 @@ public class Fibo_series {
 	}
 	
 	public static void main(String[] args) {
-		Fibo(20);
+		Fibo(9);
 	}
 }
