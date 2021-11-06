@@ -45,7 +45,7 @@ public class Test7 {
 		
 		//Switch back to normal Content
 		driver.switchTo().defaultContent();
-		WebElement bold =driver.findElement(By.xpath("//div[@id='mceu_9']//button//i"));
+		WebElement bold =driver.findElement(By.xpath("//*[@title='Formats']"));
 		bold.click();
 		Thread.sleep(3000);
 		//Close browser
